@@ -32,12 +32,12 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
 	selfInvMax <- x$getInv()
-	# get the value 
-	
-	if(!is.null(selfInvMax)){
-		message("getting cached data")
-    	return(selfInvMax)
-	}
+	# get the value
+
+    if(!is.null(selfInvMax)){
+        message("getting cached data")
+        return(selfInvMax)
+    }
 	# cache has bean calculated ,return the value
 	
 	data <- x$get()
