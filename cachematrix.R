@@ -52,3 +52,4 @@ cacheSolve <- function(x, ...) {
     selfInvMax
     # return the inverse
 }
+## forgive the poor english ...
