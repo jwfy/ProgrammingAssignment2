@@ -1,3 +1,7 @@
+### 修改 **2014-12-29**
+> 把这次学习R语言的相关程序代码都拉取过来了
+
+
 ### Introduction
 
 This second programming assignment will require you to write an R
